@@ -1,0 +1,23 @@
+.github/
+  └── workflows/
+      └── test.yml        <-- 自动化测试脚本 (GitHub Actions)
+app/
+  ├── api/
+  │   ├── v1/endpoints/...
+  │   ├── api.py
+  │   └── deps.py
+  ├── core/
+  │   ├── config.py
+  │   ├── database.py
+  │   └── security.py
+  ├── middleware/
+  │   └── tenant.py
+  ├── models/...
+  ├── schemas/...
+  ├── services/...
+  └── main.py
+tests/
+  ├── conftest.py
+  └── test_core_flows.py
+requirements.txt
+schema.sql
